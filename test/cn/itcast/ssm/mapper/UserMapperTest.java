@@ -16,6 +16,7 @@ private ApplicationContext applicationContext;
 		applicationContext=new ClassPathXmlApplicationContext("classpath:spring/applicationContext.xml");		
 	}
 	
+	
 	//≤‚ ‘
 	@Test
 	public void testFindUserById() throws Exception {
